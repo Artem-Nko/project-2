@@ -32,6 +32,12 @@
 
 .footer__list a {
     color: var(--text-color);
+    font-family: Graphik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
 }
 
 .tell {
@@ -85,7 +91,7 @@
         justify-content: flex-start;
     }
 
-    .footer__list {
+    .footer__list a {
         font-family: Graphik;
         font-size: 15px;
         font-style: normal;
