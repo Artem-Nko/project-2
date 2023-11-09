@@ -1,0 +1,139 @@
+.pricing {
+    background: var(--dark-background);
+}
+
+.pricing__text {
+    margin-bottom: 80px;
+    color: var(--text-color); 
+    line-height: 40px;
+}
+
+.pricing .title {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    margin: 0;
+    color: var(--text-color);
+    margin: 0 0 30px 0;
+}
+
+.pricing .text {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    margin: 0 0 30px 0;
+    color: var(--text-color);
+}
+
+.pricing__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    /* margin: 0 0 100px 0; */
+}
+
+.card__items {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--text-color);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.card__text {
+    margin: 0 0 30px 0;
+}
+
+.per__month {
+    margin: 0 0 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.per__month span {
+    color: var(-title-color-h2);
+    font-family: "Graphik", sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0.2px;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+}
+
+.money .money-row-1 {
+    font-family: "Graphik", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.money .money-row-2 {
+    font-family: "Graphik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+}
+
+.card__link {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30px 0;
+}
+
+.card__link a {
+    padding: 10px;
+    color: var(--title-color-h2);
+}
+
+#card__color {
+    background-color: var(--btn-color);
+}
+
+#card__color .card__title,
+#card__color .card__text,
+#card__color .per__month span,
+#card__color .card__link a {
+    color: var(--text-color);
+}
+
+#card__color .btn {
+    background-color: var(--text-color);
+    color: var(--btn-color);
+}
+
+@media (min-width: 1200px) {
+    .card__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 1105px;
+        height: 680px;
+    }
+    .card {
+        width: 335px;
+        height: 605px;
+        display: flex;
+        justify-content: center;
+    }
+    .card.blue {
+        width: 335px;
+        height: 680px;
+    }
+}

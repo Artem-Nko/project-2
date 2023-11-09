@@ -1,0 +1,125 @@
+.contacts {
+    padding: 100px 0;
+}
+
+/* .contacts__wrapper {
+    margin: 0 20px;
+} */
+
+.contacts__map {
+    display: none;
+}
+
+.contacts__title {
+    margin-bottom: 30px;
+}
+
+.contacts__social {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.contacts__items {
+    /* display: flex; */
+    margin: 0 20px 50px 20px;
+}
+
+.contact__item {
+    display: flex;
+    margin: 0 0 10px 0;
+}
+
+.contact__item img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+}
+
+.contact__item p,
+.contact__item a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: var(--title-color-h2);
+}
+
+.contact__form {
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background-color: var(--text-color);
+    margin: 0 20px;
+}
+
+.contact__form input,
+#area {
+    width: 100%;
+    border-radius: 39px;
+    border: 1px solid var(--input-form-1);
+    background-color: var(--form-bg);
+    padding: 20px;
+}
+
+.contact__form .title__form,
+.contact__form input,
+.contact__form #area {
+    margin: 0 0 45px 0;
+}
+
+.contact__form #area {
+    border-radius: unset;
+}
+
+.contact__form .btn {
+    width: 205px;
+}
+
+@media (min-width: 1200px) {
+    .contacts__map {
+        display: block;
+    }
+
+    .media__box {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .media__box-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contacts .contacts__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        margin: 0px 0 40px 0;
+    }
+
+    .contact__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 10px 0;
+        font-family: Graphik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0.1px;
+        width: 33%;
+        padding-top: 40px;
+    }
+    .contacts__text {
+        margin-bottom: 30px;
+    }
+}
