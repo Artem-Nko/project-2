@@ -4,7 +4,7 @@
 
 .pricing__text {
     margin-bottom: 80px;
-    color: var(--text-color); 
+    color: var(--text-color);
     line-height: 40px;
 }
 
@@ -32,7 +32,6 @@
     flex-direction: column;
     align-items: center;
     padding: 100px 0;
-    /* margin: 0 0 100px 0; */
 }
 
 .card__items {
@@ -126,12 +125,14 @@
         width: 1105px;
         height: 680px;
     }
+
     .card {
         width: 335px;
         height: 605px;
         display: flex;
         justify-content: center;
     }
+
     .card.blue {
         width: 335px;
         height: 680px;
